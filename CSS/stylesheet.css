@@ -1,0 +1,11 @@
+
+header{
+  border-bottom: solid;
+}
+header img{
+  float: left;
+}
+header h1{
+  text-align: center;
+  font-size: 3em;
+}
