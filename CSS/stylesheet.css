@@ -13,6 +13,18 @@ header h1{
   font-size: 3em;
 }
 
+.announcements{
+  margin-top: 5%;
+  height: auto;
+  max-width: 14%;
+  margin-right: 10px;
+  float: right;
+  border: solid 8px;
+  border-color: brown;
+  padding: 10px;
+}
+
+/* Start of degree boxes CSS */
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -108,6 +120,8 @@ header h1{
   line-height: 1.5;
 }
 
+/* End of degree boxes CSS */
+
 /*
 @media screen and (max-width:1200px){
   .container .box {
@@ -126,10 +140,3 @@ header h1{
   }
 }
 */
-.announcements{
-  margin-top: 30px;
-  float: right;
-  border: solid 8px;
-  border-color: brown;
-  padding: 10px;
-}
