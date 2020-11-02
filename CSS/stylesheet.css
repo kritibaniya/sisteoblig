@@ -1,11 +1,13 @@
-
 header{
   border-bottom: solid;
   text-align: center;
+  margin-right:0px;
 }
+
 header img{
   float: left;
 }
+
 header h1{
   text-align: center;
   font-size: 3em;
@@ -124,3 +126,10 @@ header h1{
   }
 }
 */
+.announcements{
+  margin-top: 30px;
+  float: right;
+  border: solid 8px;
+  border-color: brown;
+  padding: 10px;
+}
