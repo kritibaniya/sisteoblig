@@ -70,23 +70,26 @@ label #sign-two{
 }
 
 @media (max-width:870px) {
+
 .sidemeny{
   background-color: white;
 
 }
   label #sign-one {
     display: block;
+    float: left;
+    background-color: lightgrey;
+    width: 600%;
 }
 .sidemeny ul li a{
-    color: #fff;
+    color: black;
     font-size: 0px;
 }
 .sidemeny ul{
     position: absolute;
     width: 80%;
-    height: 100vh;
-    background: black;
-    opacity: 0.8;
+    height: auto;
+    background: lightgrey;
     top: 50px;
     left: -200%;
     text-align:center;
@@ -96,6 +99,7 @@ label #sign-two{
 .sidemeny ul li{
     display: block;
     margin: 40px 0;
+    font-weight: bold;
     line-height: 30px;
 }
 .sidemeny ul li a{
