@@ -33,7 +33,7 @@ header h1 {
 .sidemeny {
   height: auto;
   width: 100%;
-  position: relative;
+  position: absolute;
   font-size: 15px;
   background-color: lightgrey;
 }
@@ -223,5 +223,3 @@ label #sign-two{
   .container .box{
     width: 40%;
   }
-
-/* End of degree boxes CSS */
