@@ -3,7 +3,7 @@
 }
 
 header{
-  height: 30vh;
+  height: 200px;
   border-bottom: solid;
   border-color: brown;
 }
@@ -30,7 +30,7 @@ header h1 {
 .sidemeny {
   height: auto;
   width: 100%;
-  position: fixed;
+  position: absolute;
   font-size: 15px;
   background-color: lightgrey;
 }
@@ -57,10 +57,9 @@ padding: 15px;
   .sidemeny{
     height: 100%;
     width: 175px;
-    position: fixed;
+    position:absolute;
     font-size: 1em;
   }
-
 }
 
 /* Start of degree boxes CSS */
@@ -162,18 +161,14 @@ padding: 15px;
   .container .box{
     width: 40%;
   }
+  @media screen and (max-width:500px){
 
+
+  }
 /* End of degree boxes CSS */
 
 /*
-@media screen and (max-width:1200px){
-  .container .box {
-    max-width: 25%;
-    margin: 0;
-    padding: 0;
 
-  }
-}
 @media screen and (max-width:600px){
   .container .box {
     max-width: 25%;
