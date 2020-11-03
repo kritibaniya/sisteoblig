@@ -50,14 +50,11 @@ header h1 {
   width: 45%;
 }
  /* I TRIED, BUT THE MEDIA DOES NOT SEEM TO WORK ÆÆÆÆÆ */
-@media screen and (max-width:870px) {
+@media screen and (max-width:890px) {
 
   .announcements{
-    margin-top: 5%;
-    margin-left: 30%;
-    height: auto;
-    width: 50%;
-    margin-right:50px;
+    height: 200px;;
+
   }
   .covid {
     height: auto;
