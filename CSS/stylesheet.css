@@ -1,21 +1,62 @@
+*{
+  margin: 0px;
+}
+
 header{
+  height: 30vh;
   border-bottom: solid;
-  margin-right:0px;
+  border-color: brown;
 }
 
 header img{
   float: left;
 }
 
-header h1{
+header h1 {
+  font-size:3em;
   text-align: center;
-  font-size: 3em;
+  padding-top: 5vh;
 }
 
-.announcements{
-  margin-top: 30px;
+header button{
   float: right;
-  border: solid 8px;
-  border-color: brown;
-  padding: 10px;
+  padding: 20px;
+  margin-right:50px;
+}
+
+.sidemeny {
+
+  height: auto;
+  width: 100%;
+  position: fixed;
+  font-size: 15px;
+  background-color: lightgrey;
+}
+
+.sidemeny ul {
+  list-style: none;
+}
+
+.sidemeny li{
+display: inline-block;
+padding: 15px;
+}
+
+.sidemeny ul li:hover  {
+  background-color: grey;
+}
+
+.sidemeny ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 1020px) {
+  .sidemeny{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    font-size: 1em;
+  }
+
 }
