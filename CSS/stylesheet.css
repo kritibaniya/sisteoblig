@@ -23,14 +23,11 @@ header h1 {
   margin-top: 5%;
   height: auto;
   max-width: 14%;
-  margin-right: 10px;
   float: right;
   padding: 20px;
-  margin-right:50px;
 }
 
 .sidemeny {
-
   height: auto;
   width: 100%;
   position: fixed;
@@ -56,10 +53,10 @@ padding: 15px;
   color: black;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1030px) {
   .sidemeny{
     height: 100%;
-    width: 200px;
+    width: 175px;
     position: fixed;
     font-size: 1em;
   }
@@ -68,13 +65,10 @@ padding: 15px;
 
 /* Start of degree boxes CSS */
 .container {
-  display: flex;
+  display:flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-left: 350px;
-  margin-right: 350px;
   margin-top: 80px;
-
 }
 
 .container .box{
@@ -83,10 +77,8 @@ padding: 15px;
   padding: 20px;
   background: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
-  border-radius: 4px;
-  margin: 20px;
-  box-sizing: border-box;
   overflow: hidden;
+  margin-bottom: 25px;
 }
 .container .box .icon {
   position: relative;
@@ -161,6 +153,15 @@ padding: 15px;
   font-size: 17px;
   line-height: 1.5;
 }
+
+@media screen and (max-width:1030px){
+
+  .container {
+    margin-left: 200px;
+  }
+  .container .box{
+    width: 40%;
+  }
 
 /* End of degree boxes CSS */
 
