@@ -73,7 +73,6 @@ label #sign-two{
 
 .sidemeny{
   background-color: white;
-
 }
   label #sign-one {
     display: block;
@@ -227,3 +226,10 @@ label #sign-two{
   .container .box{
     width: 40%;
   }
+@media screen and (max-width:870px){
+  .container{
+    margin-top:50px;
+    margin-left: 40px;
+  }
+
+}
