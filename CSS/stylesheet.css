@@ -20,11 +20,15 @@ header h1 {
 
 
 .announcements{
+  box-sizing: content-box;
   margin-top: 5%;
   height: auto;
   max-width: 14%;
   float: right;
   padding: 20px;
+  margin-right:50px;
+  border: 10px solid blue;
+
 }
 
 .sidemeny {
@@ -61,7 +65,11 @@ padding: 15px;
     font-size: 1em;
   }
 }
-
+#title {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
 /* Start of degree boxes CSS */
 .container {
   display:flex;
@@ -161,20 +169,3 @@ padding: 15px;
   .container .box{
     width: 40%;
   }
-  @media screen and (max-width:500px){
-
-
-  }
-/* End of degree boxes CSS */
-
-/*
-
-@media screen and (max-width:600px){
-  .container .box {
-    max-width: 25%;
-    margin: 0;
-    padding: 0;
-
-  }
-}
-*/
