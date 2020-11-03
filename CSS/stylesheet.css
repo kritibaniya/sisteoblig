@@ -20,6 +20,7 @@ header h1 {
 
 
 .announcements{
+  box-sizing: content-box;
   margin-top: 5%;
   height: auto;
   max-width: 14%;
@@ -27,13 +28,15 @@ header h1 {
   float: right;
   padding: 20px;
   margin-right:50px;
+  border: 10px solid blue;
+
 }
 
 .sidemeny {
 
   height: auto;
   width: 100%;
-  position: fixed;
+  position: relative;
   font-size: 15px;
   background-color: lightgrey;
 }
@@ -60,20 +63,22 @@ padding: 15px;
   .sidemeny{
     height: 100%;
     width: 200px;
-    position: fixed;
+    position: relative;
     font-size: 1em;
   }
 
 }
-
+#title {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
 /* Start of degree boxes CSS */
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin-left: 350px;
   margin-right: 350px;
-  margin-top: 80px;
+  margin-top: 30px;
 
 }
 
@@ -161,6 +166,9 @@ padding: 15px;
   font-size: 17px;
   line-height: 1.5;
 }
+
+
+
 
 /* End of degree boxes CSS */
 
