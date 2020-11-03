@@ -19,16 +19,19 @@ header h1 {
   padding-top: 5vh;
 }
 
-
+/* TEXTBOKS PÅ TOPPEN */
 .announcements{
   box-sizing: border-box;
   border: solid 5px #990033;
   margin-top: 5%;
-  margin-left: 30%;
-  height: 15vh;
+  margin-left: 27%;
+  height: 180px;
   width: 50%;
+  border-radius: 10px;
   padding: 20px;
   margin-right:50px;
+  margin-bottom: 5px;
+  font-size: 18px;
 }
 .announcements h2 {
   text-align: center;
@@ -46,6 +49,25 @@ header h1 {
   height: auto;
   width: 45%;
 }
+ /* I TRIED, BUT THE MEDIA DOES NOT SEEM TO WORK ÆÆÆÆÆ */
+@media screen and (max-width:870px) {
+
+  .announcements{
+    margin-top: 5%;
+    margin-left: 30%;
+    height: auto;
+    width: 50%;
+    margin-right:50px;
+  }
+  .covid {
+    height: auto;
+  }
+  .update {
+    height: auto;
+    width: 50%;
+  }
+}
+/* SLUTT PÅ TEXT BOXEN */
 
 
 /* Navbare Menu start */
@@ -251,5 +273,4 @@ label #sign-two{
     margin-top:50px;
     margin-left: 40px;
   }
-
 }
