@@ -3,6 +3,7 @@ html{ overflow-x: hidden;}
   margin: 0px;
 }
 
+
 header{
   height: 200px;
   border-bottom: solid;
@@ -19,7 +20,7 @@ header h1 {
   padding-top: 5vh;
 }
 
-
+/* TEXTBOKS PÅ TOPPEN */
 .announcements{
   box-sizing: border-box;
   margin-left: 25%;
@@ -30,16 +31,57 @@ header h1 {
   max-width: 50%;
   padding: 10px;
 }
-#covid{
-  float: left;
-}
-#update{
-  float: right;
-}
+
 .announcements h2{
   text-decoration: underline;
   text-align: center;
+  border: solid 5px #990033;
+  margin-top: 5%;
+  margin-left: 27%;
+  height: 180px;
+  width: 50%;
+  border-radius: 10px;
+  padding: 20px;
+  margin-right:50px;
+  margin-bottom: 5px;
+  font-size: 18px;
 }
+.announcements h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+.covid {
+  box-sizing: border-box;
+  float: left;
+  height: auto;
+  width: 45%;
+}
+.update {
+  box-sizing: border-box;
+  float: right;
+  height: auto;
+  width: 45%;
+}
+ /* I TRIED, BUT THE MEDIA DOES NOT SEEM TO WORK ÆÆÆÆÆ */
+@media screen and (max-width:870px) {
+
+  .announcements{
+    margin-top: 5%;
+    margin-left: 30%;
+    height: auto;
+    width: 50%;
+    margin-right:50px;
+  }
+  .covid {
+    height: auto;
+  }
+  .update {
+    height: auto;
+    width: 50%;
+  }
+/* SLUTT PÅ TEXT BOXEN */
+
+
 /* Navbare Menu start */
 .sidemeny {
   height: auto;
@@ -51,6 +93,7 @@ header h1 {
 
 .sidemeny ul {
   list-style: none;
+  text-align: center;
 }
 
 .sidemeny li{
@@ -145,7 +188,7 @@ label #sign-two{
   display:flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 80px;
+  margin-top: 110px;
 }
 
 .container .box{
@@ -244,5 +287,4 @@ label #sign-two{
     margin-top:50px;
     margin-left: 40px;
   }
-
 }
