@@ -1,6 +1,9 @@
 *{
   margin: 0px;
 }
+body {
+  overflow-x: hidden;
+}
 
 
 header{
@@ -110,14 +113,15 @@ label #sign-two{
 
 @media (max-width:870px) {
 
-.sidemeny{
-  background-color: white;
-}
+
   label #sign-one {
     display: block;
     float: left;
     background-color: lightgrey;
-    width: 600%;
+    width: 100vw;
+}
+.sidemeny{
+  height: 0px;
 }
 .sidemeny ul li a{
     color: black;
