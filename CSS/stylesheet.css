@@ -130,6 +130,11 @@ margin-top: 80px;
      font-size: 1.1em;
    }
  }
+ @media only screen and (max-width:620px) {
+   .announcements {
+     max-height: 100%;
+   }
+ }
 
 
 /* Navbare Menu start */
