@@ -354,3 +354,12 @@ label #sign-two{
     padding: 15px;
   }
 }
+@media only screen and (max-width:499px) {
+  .container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .container .box{
+    width: 100%;
+  }
+}
