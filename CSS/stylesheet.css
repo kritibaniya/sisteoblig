@@ -136,6 +136,74 @@ margin-top: 80px;
    }
  }
 
+ @media only screen and (max-width:499px) {
+   .announcements {
+     margin-top: 70px;
+     max-height: 100%;
+     width: 90vw;
+   }
+   .end {
+     width: 100%;
+     height: 25vh;
+   }
+   .follow {
+     margin-left: 50px;
+   }
+   header {
+     height: 192px;
+   }
+   header h1 {
+     font-size: 2.2em;
+   }
+   header img {
+     width: 38vw;
+   }
+ }
+
+ @media only screen and (max-width:437px) {
+   header img {
+     width: 45vw;
+   }
+ }
+
+ @media only screen and (max-width:356px) {
+   .announcements {
+     height: 40vh;
+     width: 100vw;
+   }
+   header {
+     height: 160px;
+   }
+   header h1 {
+     font-size: 1.7em;
+   }
+   header img {
+     width: 45vw;
+   }
+}
+ @media only screen and (max-width:288px) {
+   .announcements {
+     height: 38vh;
+     width: 130vw;
+   }
+   header {
+     height: 140px;
+   }
+   header h1 {
+     font-size: 1.5em;
+ }
+ .end {
+   width: 130vw;;
+ }
+ .follow {
+   margin-left: 0;
+   float: left;
+   font-size:
+ }
+}
+
+
+
 
 /* Navbare Menu start */
 .sidemeny {
@@ -356,10 +424,18 @@ label #sign-two{
 }
 @media only screen and (max-width:499px) {
   .container {
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 90vw;
   }
   .container .box{
     width: 100%;
+  }
+}
+@media only screen and (max-width:288px) {
+  .container {
+    width: 120vw;
+  }
+  #over {
+    text-align: center;
+    font-size: 1.9em;
   }
 }
