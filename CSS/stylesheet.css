@@ -8,11 +8,8 @@ body {
   overflow-x: hidden;
 }
 
-
 header{
   height: 200px;
-  border-bottom: solid;
-  border-color: brown;
 }
 
 header img{
@@ -24,7 +21,11 @@ header h1 {
   text-align: center;
   padding-top: 5vh;
 }
-
+hr{
+  height:4px;
+  border-width:0;
+  background-color: brown;
+}
 /* TEXTBOKS PÅ TOPPEN */
 .announcements{
   box-sizing: border-box;
