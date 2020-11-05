@@ -1,6 +1,4 @@
-body{
-  overflow-x: hidden;
-}
+
 *{
   margin:0px;
 }
@@ -65,7 +63,7 @@ margin-top: 80px;
 
 .end{
   margin-top: 100px;
-  height: 30vh;
+  height: 35vh;
   background-color: lightgrey;
   padding: 25px;
 }
@@ -112,9 +110,6 @@ margin-top: 80px;
      height: 35vh;
      margin-top: 15%;
    }
-   .end{
-     height: 35vh;
-   }
    .contact{
      width: 100%;
    }
@@ -142,10 +137,6 @@ margin-top: 80px;
      margin-top: 70px;
      max-height: 100%;
      width: 90vw;
-   }
-   .end {
-     width: 100%;
-     height: 25vh;
    }
    .follow {
      margin-left: 50px;
@@ -199,7 +190,6 @@ margin-top: 80px;
  .follow {
    margin-left: 0;
    float: left;
-   font-size:
  }
 }
 
@@ -257,11 +247,12 @@ label #sign-two{
     font-size: 1em;
   }
 }
-@media (max-width:870px) {
+@media screen and (max-width:870px) {
 
   label #sign-one {
+    box-sizing: border-box;
+    padding-left: 20px;
     display: block;
-    padding-left:20px;
     float: left;
     background-color: lightgrey;
     width: 100vw;
@@ -424,9 +415,6 @@ label #sign-two{
   }
 }
 @media only screen and (max-width:499px) {
-  .container {
-    width: 90vw;
-  }
   .container .box{
     width: 100%;
   }
