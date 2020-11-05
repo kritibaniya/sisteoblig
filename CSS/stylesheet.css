@@ -4,9 +4,6 @@ body{
 *{
   margin:0px;
 }
-body {
-  overflow-x: hidden;
-}
 
 
 header{
@@ -198,7 +195,6 @@ margin-top: 80px;
  .follow {
    margin-left: 0;
    float: left;
-   font-size:
  }
 }
 
