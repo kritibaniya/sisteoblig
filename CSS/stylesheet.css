@@ -2,6 +2,12 @@
 *{
   margin:0px;
 }
+*:focus {
+  outline: 5px solid red;
+}
+
+
+
 
 header{
   height: 200px;
@@ -228,7 +234,6 @@ label #sign-two{
 #res-menu {
   display: none;
 }
-
 
 
 @media screen and (max-width: 1030px) {
